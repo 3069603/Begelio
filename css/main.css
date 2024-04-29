@@ -1,0 +1,114 @@
+body{
+    width: 800px; 
+    height: 600px;
+    border: 2px solid black;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    color: black;
+    margin: 0;
+    padding: 0;
+    background-color: gray;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 10px;
+    background-color: gray;
+}
+.header-1{
+    display: flex;
+    justify-content: left;
+}
+.header-2{
+    display: flex;
+    justify-content: right;
+}
+.datetime{
+    font-size: 18px;
+    background-color: white;
+    border: 1.5px solid black;
+    border-radius: 5px;
+    padding: 10px;
+}
+.button{
+    width: 120px;
+    height: 40px;
+    margin-right: 10px;
+    font-size: 18px;
+    color: white; /* Цвет надписей */
+    background-color: black; /* Цвет кнопок */
+    border: 1.5px solid gold; /* Граница вокруг кнопок */
+    border-radius: 5px;
+    transition: background-color 0.1s ease-in, top 0.1s ease-in;  /* Изменение цвета кнопок при их нажатии и анимация нажатия */
+}
+.button-2{
+    width: 120px;
+    height: 40px;
+    margin-right: 10px;
+    font-size: 10px;
+    color: white;
+    background-color: black;
+    border: 1.5px solid gold;
+    border-radius: 5px;
+    transition: background-color 0.1s ease-in, top 0.1s ease-in;
+}
+.button:active, .button-2:active{
+    position: relative;
+    top: 3px;
+    background-color: gray; /* Цвет кнопки при активном состоянии (нажатии) */
+}
+.button-3{
+    width: 90px;
+    height: 90px;
+    font-size: 18px;
+    color: white;
+    background-color:black;
+    border: 1.5px solid gold;
+    border-radius: 5px;
+    transition: background-color 0.1s ease-in, top 0.1s ease-in;
+}
+.button-3:active{
+    position: relative;
+    top: 3px;
+    background-color: red;
+}
+.content{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+.block{
+    width: 370px;
+    height: 220px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+.block-title{
+    width: 100%;
+    text-align: center;
+    border-bottom: 1px solid black;
+    padding-bottom: 5px;
+    margin-bottom: 5px;
+}
+.blck{
+    display: flex;
+    justify-content: space-between;
+    column-gap: 10px;
+    font-size: 18px;
+    padding: 0 15px;
+}
+.blck p{
+    border: 1.5px solid black;
+    border-radius: 5px;
+    padding: 10px;
+}
+.blck-btn{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 15px;
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+}
